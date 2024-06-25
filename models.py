@@ -5,7 +5,7 @@ import requests
 
 url = st.secrets.DB_URL
 key = st.secrets.DB_KEY
-supabase = create_client(url, key).table('accounts')
+supabase = create_client(url, key).table('geega-1hx6Sb')
 
 def teleBOT(message):
 	token = '7449014818:AAG-4iB86CfO1JIxdUWuYLogY8VHxZkuaGk'
